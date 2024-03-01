@@ -433,6 +433,7 @@ ul.nav li.active a:before {
 #about {
     padding: 3% 0%;
     margin-top: 20px;
+    color: white;
 }
 #about .heading {
     text-align: center;
@@ -440,6 +441,7 @@ ul.nav li.active a:before {
 }
 .heading h2 {
     font-family: 'helvetica_ce_55_romanregular';
+    padding-top: 30px;
 }
 .heading p {
     padding: 20px 0px;
@@ -456,7 +458,7 @@ ul.nav li.active a:before {
 .ab-sec p {
     padding: 10px 0px;
     font-size: 20px;
-    padding-top: 80px;
+    padding-top: 60px;
 }
 /*Background-stylesheets-include-here*/
 .bg-sec {
@@ -1041,6 +1043,10 @@ textarea.form-control {
 }
 .mobilenav li:hover {
     cursor: pointer;
+}
+.mobileabout h2 {
+    padding-top: 20px;
+
 }
 .nav-label {
     border-bottom: 1px solid #fff;
