@@ -39,23 +39,23 @@ body {
 }
 /*for-section-text-start-here*/
 ::selection {
-    background: blue; /* WebKit/Blink Browsers */
+    background: darkblue; /* WebKit/Blink Browsers */
     color: #fff;
 }
 ::-webkit-selection {
-    background-color: blue;
+    background-color: darkblue;
     color: gray;
 }
 ::-ms-selection {
-    background-color: blue;
+    background-color: darkblue;
     color: #fff;
 }
 ::-o-selection {
-    background-color: blue;
+    background-color: darkblue;
     color: #fff;
 }
 ::-moz-selection {
-    background-color: blue;
+    background-color: darkblue;
     color: #fff;
 }
 /* ========================================================================
@@ -107,7 +107,7 @@ body {
   Hover End
  ========================================================================== */
 #preloader {
-    background: gray;
+    background: white;
     bottom: 0;
     left: 0;
     position: fixed;
@@ -192,13 +192,13 @@ strong {
     font-weight: bolder;
 }
 span {
-    color: blue;
+    color: darkblue;
 }
 .space {
     margin: 30px 0px;
 }
 .line {
-    border: 1px solid blue;
+    border: 1px solid darkblue;
     width: 15%;
 }
 a:hover,
@@ -217,7 +217,7 @@ a.btn-down {
 }
 a.btn-down:hover {
     background: #fff;
-    color: blue;
+    color: darkblue;
     transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -226,15 +226,15 @@ a.btn-down:hover {
 a.btn-order {
     height: 50px;
     width: 50px;
-    color: blue;
-    border: 2px solid blue;
+    color: darkblue;
+    border: 2px solid darkblue;
     padding: 3% 5%;
     font-size: 15px;
     position: relative;
     top: 5px;
 }
 a.btn-order:hover {
-    background: blue;
+    background: darkblue;
     color: #fff;
     transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -242,13 +242,13 @@ a.btn-order:hover {
     -webkit-transition: all 0.5s;
 }
 a.btn-send {
-    color: blue;
-    border: 2px solid blue;
+    color: darkblue;
+    border: 2px solid darkblue;
     padding: 2% 0%;
     font-size: 15px;
 }
 a.btn-send:hover {
-    background: blue;
+    background: darkblue;
     color: #fff;
     transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -257,7 +257,7 @@ a.btn-send:hover {
 }
 /*Navigation-stylesheets-include-here*/
 .navbar-default {
-    background: blue;
+    background: darkblue;
     border: rgba(248, 248, 248, 0);
     padding: 5px 5px;
 }
@@ -357,7 +357,7 @@ ul.nav li.active a:before {
 }
 .home-carousel-left,
 .home-carousel-right {
-    background-color: blue;
+    background-color: darkblue;
     color: #fff;
     font-size: 32px;
     height: 40px;
@@ -447,7 +447,7 @@ ul.nav li.active a:before {
     padding: 20px 0px;
     font-size: 13px;
     font-weight: bolder;
-    color: #555;
+    color: black;
 }
 .ab-sec {
     text-align: justify;
@@ -462,7 +462,7 @@ ul.nav li.active a:before {
 }
 /*Background-stylesheets-include-here*/
 .bg-sec {
-    background: gray;
+    background: white;
     margin-top: 10px;
     padding: 1% 0%;
 }
@@ -501,13 +501,13 @@ ul.nav li.active a:before {
     text-align: center;
     width: 64px;
     border-radius: 100%;
-    color: blue;
+    color: darkblue;
     border: 1px solid #d7d7d7;
     transition: background-color 400ms, background-color 400ms;
     position: relative;
 }
 .media.service-box:hover .pull-left > i {
-    background: blue;
+    background: darkblue;
     color: #fff;
     transform: rotateY(360deg);
     -moz-transform: rotate(360deg);
@@ -552,7 +552,7 @@ ul.nav li.active a:before {
 }
 #portfolio .portfolio-filter > li a:hover,
 #portfolio .portfolio-filter > li a.active {
-    background: blue;
+    background: darkblue;
     color: #fff;
     -webkit-transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
@@ -572,7 +572,7 @@ ul.nav li.active a:before {
     margin-left: -10px;
     border-width: 10px;
     border-style: solid;
-    border-color: blue transparent transparent transparent;
+    border-color: darkblue transparent transparent transparent;
 }
 #portfolio .portfolio-filter > li:first-child a {
     border-radius: 4px 0 0 4px;
@@ -609,7 +609,7 @@ ul.nav li.active a:before {
 }
 #portfolio .portfolio-item:hover .portfolio-info i.fa {
     font-size: 30px;
-    color: blue;
+    color: darkblue;
 }
 /* Start: Recommended Isotope styles */
 /**** Isotope Filtering ****/
@@ -676,13 +676,13 @@ ul.nav li.active a:before {
     font-weight: bold;
 }
 .contact-sec-1 ul.contact-form li i.fa {
-    color: #666;
+    color: black;
     float: left;
     margin-right: 10px;
 }
 .contact-sec-1 ul.contact-form li h6 {
     font-size: 14px;
-    color: #666;
+    color: black;
     margin: 0;
 }
 .contact-sec-1 h4 {
@@ -698,10 +698,10 @@ ul.nav li.active a:before {
     padding-bottom: 30px;
 }
 .contact-sec-1 ul li a {
-    color: #666;
+    color: black;
 }
 .contact-sec-1 ul li a:hover {
-    color: blue;
+    color: darkblue;
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     -ms-transition-duration: 0.3s;
@@ -717,16 +717,18 @@ label {
 .form-group {
     margin-bottom: 30px;
     margin-top: 20px;
+    color: black;
 }
 textarea.form-control {
     min-height: 120px;
     resize: none;
 }
 .form-control {
-    border: 1px solid #ccc;
+    border: 1px solid black;
     height: 35px;
     border-radius: 0;
     box-shadow: none;
+    color: black;
 }
 /*Footer-stylesheets-include-here*/
 #footer {
@@ -743,7 +745,7 @@ textarea.form-control {
     text-align: center;
 }
 #footer-down h2 {
-    color: #444;
+    color: #000;
     margin: 20px 0px 40px 0px;
     text-transform: none;
 }
@@ -752,9 +754,9 @@ textarea.form-control {
     margin-right: 20px;
 }
 #footer-down ul li a i.fa {
-    color: #999;
+    color: black;
     font-size: 22px;
-    border: 2px solid #999;
+    border: 2px solid black;
     height: 50px;
     width: 50px;
     border-radius: 50px;
@@ -795,7 +797,7 @@ textarea.form-control {
 
 /*Full-screen-menu-stylesheet-include-here*/
 .top-animate {
-    background: blue !important;
+    background: darkblue !important;
     top: 13px !important;
     -webkit-transform: rotate(45deg);
     /* Chrome, Safari, Opera */
@@ -805,7 +807,7 @@ textarea.form-control {
     opacity: 0;
 }
 .bottom-animate {
-    background: blue !important;
+    background: darkblue !important;
     top: 13px !important;
     -webkit-transform: rotate(-225deg);
     /* Chrome, Safari, Opera */
@@ -829,7 +831,7 @@ textarea.form-control {
     top: 21px;
 }
 .menui {
-    background: blue;
+    background: darkblue;
     transition: 0.6s ease;
     transition-timing-function: cubic-bezier(0.75, 0, 0.29, 1.01);
     margin-top: 10px;
@@ -968,15 +970,15 @@ textarea.form-control {
 a.btn-learn {
     height: 50px;
     width: 50px;
-    color: blue;
-    border: 2px solid blue;
+    color: darkblue;
+    border: 2px solid darkblue;
     padding: 1% 2%;
     font-size: 15px;
     position: relative;
     top: 40px;
 }
 a.btn-learn:hover {
-    background: blue;
+    background: darkblue;
     color: #fff;
     transition: all 0.5s;
     -moz-transition: all 0.5s;
